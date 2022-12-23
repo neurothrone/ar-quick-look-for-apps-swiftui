@@ -11,6 +11,9 @@
 		2F35800829564C21008D3936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F35800729564C21008D3936 /* ContentView.swift */; };
 		2F35800A29564C21008D3936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F35800929564C21008D3936 /* Assets.xcassets */; };
 		2F35800D29564C21008D3936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F35800C29564C21008D3936 /* Preview Assets.xcassets */; };
+		2F35801729564C96008D3936 /* Pig.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2F35801429564C96008D3936 /* Pig.usdz */; };
+		2F35801829564C96008D3936 /* Teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2F35801529564C96008D3936 /* Teapot.usdz */; };
+		2F35801929564C96008D3936 /* Gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2F35801629564C96008D3936 /* Gramophone.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2F35800729564C21008D3936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F35800929564C21008D3936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F35800C29564C21008D3936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F35801429564C96008D3936 /* Pig.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pig.usdz; sourceTree = "<group>"; };
+		2F35801529564C96008D3936 /* Teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Teapot.usdz; sourceTree = "<group>"; };
+		2F35801629564C96008D3936 /* Gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Gramophone.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			children = (
 				2F35800529564C21008D3936 /* AppMain.swift */,
 				2F35800729564C21008D3936 /* ContentView.swift */,
+				2F35801329564C96008D3936 /* Models */,
 				2F35800929564C21008D3936 /* Assets.xcassets */,
 				2F35800B29564C21008D3936 /* Preview Content */,
 			);
@@ -65,6 +72,16 @@
 				2F35800C29564C21008D3936 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F35801329564C96008D3936 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F35801429564C96008D3936 /* Pig.usdz */,
+				2F35801529564C96008D3936 /* Teapot.usdz */,
+				2F35801629564C96008D3936 /* Gramophone.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F35801829564C96008D3936 /* Teapot.usdz in Resources */,
+				2F35801929564C96008D3936 /* Gramophone.usdz in Resources */,
+				2F35801729564C96008D3936 /* Pig.usdz in Resources */,
 				2F35800D29564C21008D3936 /* Preview Assets.xcassets in Resources */,
 				2F35800A29564C21008D3936 /* Assets.xcassets in Resources */,
 			);
